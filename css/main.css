@@ -1,0 +1,51 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #555;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.wrapper {
+    width: 95%;
+    margin: 0.5em auto;
+}
+ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+li {
+    width: 100%;
+    list-style: none;
+    float: left;
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 3.7%;
+}
+picture {
+    max-width: 90%;
+}
+img {
+    max-width: 90%;
+    border-radius: 3px;
+    position: relative;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+@media screen and (min-width: 600px) {
+    li {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    li {
+        width: 25%;
+    }
+}
